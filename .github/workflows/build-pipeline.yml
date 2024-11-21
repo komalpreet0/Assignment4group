@@ -59,7 +59,7 @@ jobs:
     needs: build  # Ensure this job runs only after the build job
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3  # Updated to v3
         with:
           name: awesome-calculator
 
