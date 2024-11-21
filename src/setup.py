@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="dedreira-awesomecalculator", # Replace with your own username
     version= "1.0.0",
-    author="Daniel Edreira",
-    author_email="dedreira@github.com",
+    author="Groupassignment",
+    author_email="komalpreet0@github.com",
     description="An awesome calculator package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dedreira/awesomecalculator",
+    url="https://github.com/komalpreet0/Assignment4group",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
